@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/Lesson3-graphql/graphql/pom.xml" />
+        <option value="$PROJECT_DIR$/Lesson8-testing/pom.xml" />
+        <option value="$PROJECT_DIR$/Lesson2-restapis/bootstrap/pom.xml" />
+        <option value="$PROJECT_DIR$/Lesson5-security/security/pom.xml" />
+        <option value="$PROJECT_DIR$/Lesson6-consuming/consuming soap/consuming/pom.xml" />
+        <option value="$PROJECT_DIR$/Lesson6-consuming/consuming rest apis/consuming/pom.xml" />
+        <option value="$PROJECT_DIR$/Lesson7-documenting/pom.xml" />
+        <option value="$PROJECT_DIR$/Lesson4-microservices/items/pom.xml" />
+        <option value="$PROJECT_DIR$/Lesson4-microservices/eureka/pom.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_15" default="true" project-jdk-name="15" project-jdk-type="JavaSDK" />
+  <component name="ProjectType">
+    <option name="id" value="jpab" />
+  </component>
+</project>
