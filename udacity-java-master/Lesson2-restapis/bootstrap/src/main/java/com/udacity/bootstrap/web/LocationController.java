@@ -9,7 +9,10 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 import java.util.List;
-
+/**
+ * This marks a class as a REST API.
+ * @RestController is a convenience annotation that combines @Controller and @ResponseBody.
+ */
 @RestController
 public class LocationController {
     private LocationService locationService;
@@ -19,6 +22,10 @@ public class LocationController {
         this.locationService = locationService;
     }
 
+    /**
+     * This annotation handles HTTP GET requests
+     * and acts as a shortcut for @RequestMapping (method = RequestMethod.GET)
+     */
     @GetMapping("/location")
     public ResponseEntity<List<Location>> getAllLocations() {
         List<Location> list = locationService.retrieveLocations();

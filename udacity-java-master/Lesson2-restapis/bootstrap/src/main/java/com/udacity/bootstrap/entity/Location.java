@@ -5,7 +5,8 @@ import javax.persistence.*;
 /**
 This marks a Java class as an entity,
  which means it will be persisted to the database.
- Typically, an entity maps to a database table and the table contains rows that represent that given entity.
+ Typically, an entity maps to a database table
+ and the table contains rows that represent that given entity.
  */
 
 @Entity
